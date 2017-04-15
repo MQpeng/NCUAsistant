@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/power_et"
+            android:digits="0123456789GJgjYy"
+            android:lines="1"
+            android:hint="输入房间号"
+            android:paddingLeft="5dp"
+            android:background="@drawable/week_shape"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/power_bt"
+            android:text="点击开始查询"
+            android:textColor="#aa000000"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/help_power_tv"
+            android:padding="5dp"
+            android:background="@drawable/week_shape"
+            android:textColor="#aa000000"
+            android:textSize="16sp"
+            android:text="@string/power_help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+</LinearLayout>

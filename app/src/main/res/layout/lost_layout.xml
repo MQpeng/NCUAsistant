@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relative_layout_lost_refresh"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_centerInParent="true"
+            android:textColor="#EE7C6B"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="点击屏幕刷新数据"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/lost_layout_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/shape_progress"
+        android:visibility="visible" />
+    <com.study.pengshao.myclassinfoinncu.MyView.LoadListView
+        android:id="@+id/lost_list_view"
+        android:padding="10dp"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:divider="#22ff0000"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/submit_lost_data"
+        android:background="@mipmap/submit"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>

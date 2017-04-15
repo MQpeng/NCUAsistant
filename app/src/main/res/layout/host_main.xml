@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.study.pengshao.myclassinfoinncu.MyView.NoScrollViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></com.study.pengshao.myclassinfoinncu.MyView.NoScrollViewPager>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            style="@style/MyStyle"
+            android:checked="true"
+            android:layout_height="match_parent"
+            android:id="@+id/class_rb"
+            android:text="课表"
+            android:drawableTop="@drawable/rb_select_bg1"
+            />
+        <RadioButton
+            style="@style/MyStyle"
+            android:layout_height="match_parent"
+            android:id="@+id/exam_rb"
+            android:text="查询"
+            android:drawableTop="@drawable/rb_select_bg2"
+            />
+        <RadioButton
+            style="@style/MyStyle"
+            android:layout_height="match_parent"
+            android:id="@+id/query_rb"
+            android:text="服务"
+            android:drawableTop="@drawable/rb_select_bg3"
+            />
+        <RadioButton
+            style="@style/MyStyle"
+            android:layout_height="match_parent"
+            android:id="@+id/people_rb"
+            android:text="校园知乎"
+            android:drawableTop="@drawable/rb_select_bg4"
+            />
+
+    </RadioGroup>
+</LinearLayout>

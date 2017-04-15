@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">南大助手</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="power_help">
+        \t\t\t☆南校区（医学院）的房间号\n
+        格式为：Y+楼栋号+楼层号+房间号\n
+例如：医学院1栋宿舍1楼1号房 = 『Y1101』\n
+        \t\t医学院11栋宿舍1楼1号房 = 『Y11101』\n\n
+        \t\t\t☆北校区（本部）的房间号\n
+        格式为：楼栋号+楼层号+房间号，不足两位的均在前面补零。\n
+例如：1栋宿舍1楼1号房，为『010101』\n
+      \t\t30栋宿舍12楼12号房，为『301212』\n\n
+        \t\t\t☆国际交流学院 请在房间号码前加 “GJ”也就是“国际”两字的拼音首字母。\n
+例如： 1501  格式为『gj1501』  （字母大小写均可）\n</string>
+
+</resources>

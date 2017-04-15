@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/advice_name"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:hint="怎么称呼您"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/advice_phone"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:hint="您的手机号"
+        android:inputType="phone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/advice_content"
+        android:maxLines="8"
+        android:lines="8"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="您对我们的建议"
+        android:background="@drawable/week_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/submit_advice"
+        android:layout_marginTop="10dp"
+        android:text="提交"
+        android:textSize="20sp"
+        android:background="@drawable/login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
